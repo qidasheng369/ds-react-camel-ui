@@ -1,5 +1,5 @@
-import Button from './components/Button/Button';
-import Input from './components/Input/Input';
+// import Button from './components/Button/Button';
+// import Input from './components/Input/Input';
 import { RadioGroup, Radio } from './components/Radio/Radio';
 import Checkbox from './components/Checkbox/Checkbox';
 import Switch from './components/Switch/Switch';
@@ -11,10 +11,12 @@ import { Tabs, Item } from './components/Tabs/Tabs';
 import Textarea from './components/Textarea/Textarea';
 import Inputfile from './components/Inputfile/Inputfile';
 import Tooltip from './components/Tooltip/Tooltip';
-import Details from './components/Details/Details';
+// import Details from './components/Details/Details';
 import { ComboboxItem, Combobox } from './components/Combobox/Combobox';
 
-import './App.css'
+// import './App.css'
+import { Button, Details, Input } from '@ids-react/camel-ui';
+import '@ids-react/camel-ui/dist/index.css';
 
 const colors = [
     'Black',
